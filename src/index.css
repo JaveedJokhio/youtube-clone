@@ -37,6 +37,7 @@ a {
 .react-player {
   height: 77vh !important;
   width: 100% !important;
+  
 }
 
 .search-bar{
@@ -50,7 +51,7 @@ a {
   text-transform: capitalize;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   cursor:pointer;
   background: transparent;
   outline: none;
@@ -72,11 +73,12 @@ a {
   .copyright{
     display:none !important;
   }
-}
+} 
 
 @media screen and (max-width: 600px) {
   .scroll-horizontal {
     overflow: auto !important;
+    
   }
 
   .react-player {
@@ -85,4 +87,5 @@ a {
   .search-bar{
     width:200px;
   }
+
 }
